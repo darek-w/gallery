@@ -36,8 +36,8 @@ export default {
 
 <style lang="scss" scoped>
 @import '~vuetify/src/styles/settings/_variables';
-$borderColor: #ccc;
-$customBorder: 2px $borderColor solid;
+$gray: #ccc;
+$customBorder: 2px $gray solid;
 
 @media #{map-get($display-breakpoints, 'md-and-up')} {
     .custom-border {
